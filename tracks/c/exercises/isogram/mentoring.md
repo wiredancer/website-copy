@@ -41,6 +41,7 @@ bool is_isogram(const char phrase[])
 - Use standard library functions like tolower() (or toupper()) and isalpha() to avoid re-implementing the same functionality.
 
 - Use character constants like 'A' instead of bare numbers.
+  - equally, use ALPHABET_SIZE = 1 + 'z' - 'a' instead of 26
 
 - If a boolean array is used for the lookup table, use the array initializer '{false}' instead of a loop for initialization.
 
